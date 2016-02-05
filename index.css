@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'PFBeauSansPro';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/PFBeauSansPro-Regular.woff') format('woff'),
+    url('./fonts/PFBeauSansPro-Regular.ttf') format('truetype'),
+    url('./fonts/PFBeauSansPro-Regular.svg#PFBeauSansPro-Regular') format('svg');
+}
+@font-face {
+    font-family: 'PFBeauSansPro-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/PFBeauSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/PFBeauSansPro-Light.woff') format('woff'),
+    url('./fonts/PFBeauSansPro-Light.ttf')  format('truetype'),
+    url('./fonts/PFBeauSansPro-Light.svg#PFBeauSansPro-Light') format('svg');
+}
+
+
+@font-face {
+    font-family: 'PFBeauSansPro-Bold';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('./fonts/PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/PFBeauSansPro-Bold.woff') format('woff'),
+    url('./fonts/PFBeauSansPro-Bold.ttf') format('truetype'),
+    url('./fonts/PFBeauSansPro-Bold.svg#PFBeauSansPro-Bold') format('svg');
+}
+
+
+body {
+    font-family: 'PFBeauSansPro-Light';
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-size: 14px;
+    color: #6A6B70;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    background: url(./img/bg.png) white no-repeat top left;
+    width: 840px;
+    height: 595px;
+    padding: 55px;
+    box-sizing: border-box;
+}
+
+.container__header {
+    height: 140px;
+}
+
+.container__header .logo {
+    float: right;
+}
+
+
+.container__footer {
+    font-size: 11px;
+    text-transform: uppercase;
+    height: 80px;
+}
+
+.container__main {
+    height: 310px;
+}
+
+.logo {
+    background: url(./img/logo.png);
+    width: 226px;
+    height: 64px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.text .big {
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+
+.text .name {
+    font-size: 38px;
+    color: black;
+    font-family: 'PFBeauSansPro-Bold';
+
+}
+
+.text .course-name {
+    font-size: 29px;
+    font-family: 'PFBeauSansPro';
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
